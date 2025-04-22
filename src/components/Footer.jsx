@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <h2 className="text-xl font-bold">
-              <Link to={"/"}>NEXUS<span className={styles.gradientText}>NOTES</span></Link>
+              <Link to={"/"}><span className='text-white'>NEXUS</span><span className={styles.gradientText}>NOTES</span></Link>
             </h2>
             <p className="text-gray-500 text-sm mt-1">Streamlined thought capture. Enhanced organization.</p>
           </div>
@@ -21,9 +21,12 @@ export default function Footer() {
             <Link to="/notes" className="text-gray-400 hover:text-cyan-400 transition-colors">All Notes</Link>
             <Link to="/new" className="text-gray-400 hover:text-cyan-400 transition-colors">Create</Link>
             <Link to="/settings" className="text-gray-400 hover:text-cyan-400 transition-colors">Settings</Link>
+            <a href="https://github.com/ShooterCrow" target="_blank" rel="noopener noreferrer" class="font-bold text-white">Victor - See More</a>
+
           </div>
         </div>
       </div>
     </footer>
   );
 }
+

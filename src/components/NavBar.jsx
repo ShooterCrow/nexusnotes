@@ -15,7 +15,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
             <h1 className="text-2xl font-bold">
-              <Link to={"/"}>NEXUS<span className={styles.gradientText}>NOTES</span></Link>
+              <Link to={"/"}><span className='text-white'>NEXUS</span><span className={styles.gradientText}>NOTES</span></Link>
             </h1>
           </div>
           <div className="hidden md:flex items-center space-x-4">
